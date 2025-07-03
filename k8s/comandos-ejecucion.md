@@ -6,3 +6,10 @@ kubectl apply -f k8s/04-api-deployment.yaml
 kubectl apply -f k8s/05-api-service.yaml
 kubectl apply -f k8s/06-api-hpa.yaml
 ```
+
+## Comandos para Eliminar
+
+```sh
+kubectl delete -f k8s/04-api-deployment.yaml
+kubectl delete -f k8s/05-api-service.yaml
+```
